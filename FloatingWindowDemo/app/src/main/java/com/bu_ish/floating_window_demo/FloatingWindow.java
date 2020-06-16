@@ -5,7 +5,6 @@ import android.graphics.PixelFormat;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewConfiguration;
 import android.view.WindowManager;
 
 public class FloatingWindow {
@@ -49,10 +48,7 @@ public class FloatingWindow {
                     case MotionEvent.ACTION_MOVE:
                         float xCurrent = event.getRawX(), yCurrent = event.getRawY();
                         float xMoved = xCurrent - x, yMoved = yCurrent - y;
-                        int touchSlop = ViewConfiguration.get(v.getContext()).getScaledTouchSlop();
-                        if (Math.abs(xMoved) >= touchSlop || Math.abs(yMoved) >= touchSlop) {
-                            shouldPerformClick = false;
-                        }
+                        shouldPerformClick = xMoved == 0 && yMoved == 0;
                         x = xCurrent;
                         y = yCurrent;
                         layoutParams.x += xMoved;
