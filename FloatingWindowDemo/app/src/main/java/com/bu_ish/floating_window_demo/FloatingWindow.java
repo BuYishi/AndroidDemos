@@ -75,8 +75,8 @@ public class FloatingWindow {
         WindowManager.LayoutParams params = new WindowManager.LayoutParams();
         params.width = width;
         params.height = height;
-        params.flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
-        params.format = PixelFormat.RGBA_8888;
+        params.flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;  //make the navigation back button clickable
+        params.format = PixelFormat.RGBA_8888;  //make the floating window background transparent
         params.gravity = gravity;
         return params;
     }
