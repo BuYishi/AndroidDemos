@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FloatingWindowDemo</string>
+    <string name="show_floating_window">Show Floating Window</string>
+    <string name="close_floating_window">Close Floating Window</string>
+</resources>
