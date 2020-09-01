@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDemo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo1"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <com.bu_ish.html_text_view_demo.HtmlTextView
+            android:id="@+id/htvDemo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/btnDemo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo2"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <com.bu_ish.html_text_view_demo.HtmlTextView2
+            android:id="@+id/htv2Demo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
