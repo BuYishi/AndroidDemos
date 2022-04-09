@@ -18,6 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewBindingDemoActivity"
+            android:exported="false"
+            android:label="ViewBinding Usage in Activity" />
+        <activity
+            android:name=".ViewBindingInflateActivity"
+            android:exported="false"
+            android:label="ViewBinding.inflate(LayoutInflater)" />
+        <activity
+            android:name=".ViewBindingBindActivity"
+            android:exported="false"
+            android:label="ViewBinding.bind(View)" />
+        <activity
+            android:name=".ViewBindingDemoFragmentActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
