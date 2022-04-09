@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="ViewBinding Usage in Dialog"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/holo_blue_bright"
+        android:paddingStart="30dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="15dp"
+        android:text="OK"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
