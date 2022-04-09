@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="50dp"
     android:layout_marginEnd="50dp"
-    android:background="@color/white"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:text="ViewBinding Usage in Dialog"
-        android:textColor="@color/black"
+        android:textColor="@android:color/black"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -33,6 +33,6 @@
         android:paddingEnd="30dp"
         android:paddingBottom="15dp"
         android:text="OK"
-        android:textColor="@color/white"
+        android:textColor="@android:color/white"
         tools:ignore="HardcodedText" />
 </LinearLayout>
