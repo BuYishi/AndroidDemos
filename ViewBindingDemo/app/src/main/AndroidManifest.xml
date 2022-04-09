@@ -32,7 +32,8 @@
             android:label="ViewBinding.bind(View)" />
         <activity
             android:name=".ViewBindingDemoFragmentActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="ViewBinding Usage in Fragment" />
     </application>
 
 </manifest>
