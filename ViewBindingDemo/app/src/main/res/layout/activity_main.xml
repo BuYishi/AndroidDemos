@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent" android:orientation="vertical"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="50dp"
+    tools:viewBindingIgnore="true">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="ViewBinding usage in:"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rectangle_blue_stroke"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnCustomView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomView"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
 </LinearLayout>
