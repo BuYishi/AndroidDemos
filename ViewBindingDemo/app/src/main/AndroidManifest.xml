@@ -34,6 +34,10 @@
             android:name=".ViewBindingDemoFragmentActivity"
             android:exported="false"
             android:label="ViewBinding Usage in Fragment" />
+        <activity
+            android:name=".CustomViewActivity"
+            android:exported="false"
+            android:label="ViewBinding Usage in CustomView" />
     </application>
 
 </manifest>
