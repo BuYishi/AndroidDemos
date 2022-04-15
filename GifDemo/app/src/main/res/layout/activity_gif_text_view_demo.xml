@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.coolor.gif_demo.GifTextViewX
+    <pl.droidsonroids.gif.GifTextView
         android:id="@+id/gtvEmojisText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
