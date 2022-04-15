@@ -45,8 +45,7 @@ public class GifTextViewDemoActivity extends AppCompatActivity {
                             "emojis/" + Objects.requireNonNull(emojis).get(m.group()),
                             new GifDrawableX.Callback(binding.gtvEmojisText));
                     drawable.setBounds(0, 0, 100, 100);
-                    builder.setSpan(new ImageSpan(drawable), m.start(), m.end(),
-                            SpannableStringBuilder.SPAN_INCLUSIVE_EXCLUSIVE);
+                    builder.setSpan(new ImageSpan(drawable), m.start(), m.end(), 0);
                 }
                 binding.gtvEmojisText.setText(builder);
             } catch (IOException e) {
