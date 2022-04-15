@@ -15,7 +15,8 @@ public class GifDrawableX extends GifDrawable {
     //should make GifDrawableX holds Callback to avoid the Callback object be garbage collected
     private final Callback callback;
 
-    public GifDrawableX(@NonNull AssetManager assets, @NonNull String assetName, Callback callback) throws IOException {
+    public GifDrawableX(@NonNull AssetManager assets, @NonNull String assetName, Callback callback)
+            throws IOException {
         super(assets, assetName);
         setCallback(callback);
         this.callback = callback;
