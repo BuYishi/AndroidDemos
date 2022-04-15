@@ -21,6 +21,9 @@
         <activity
             android:name=".GifTextViewDemoActivity"
             android:exported="false" />
+        <activity
+            android:name=".GifImageViewDemoActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
