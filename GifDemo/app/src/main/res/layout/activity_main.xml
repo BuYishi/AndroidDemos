@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRoot"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
+    <Button
+        android:id="@+id/btnGifTextViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GifTextView Demo"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnGifImageViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GifImageView Demo"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
 </LinearLayout>
