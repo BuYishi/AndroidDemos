@@ -12,6 +12,7 @@ import pl.droidsonroids.gif.GifDrawable;
 
 public class GifDrawableX extends GifDrawable {
     @SuppressWarnings({"unused", "FieldCanBeLocal"})
+    //should make GifDrawableX holds Callback to avoid the Callback object be garbage collected
     private final Callback callback;
 
     public GifDrawableX(@NonNull AssetManager assets, @NonNull String assetName, Callback callback) throws IOException {
