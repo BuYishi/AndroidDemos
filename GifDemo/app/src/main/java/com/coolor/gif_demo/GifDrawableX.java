@@ -11,6 +11,7 @@ import java.io.IOException;
 import pl.droidsonroids.gif.GifDrawable;
 
 public class GifDrawableX extends GifDrawable {
+    @SuppressWarnings({"unused", "FieldCanBeLocal"})
     private final Callback callback;
 
     public GifDrawableX(@NonNull AssetManager assets, @NonNull String assetName, Callback callback) throws IOException {
